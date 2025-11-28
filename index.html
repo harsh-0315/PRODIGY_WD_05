@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Web APP </title>
+    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/128/831/831268.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.7.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h2 id="heading">Weather APP</h2>
+        <div class="search-box">
+            <input type="text" placeholder="Enter city or country name" id="input">
+            <button id="btn">Search</button>
+        </div>
+
+        <div class="weather-card">
+
+            <h2></h2>
+
+            <div class="temperature"></div>
+            <div class="weather-condition">
+                <img src="" id="img" alt="">
+                <p class="condition"></p>
+            </div>
+
+            <div class="details">
+                <div class="box">
+                    <h3>Humidity</h3>
+                    <p class="humidity"></p>
+                </div>
+                <div class="box">
+                    <h3>Air Pressure</h3>
+                    <p class="air-pressure"></p>
+                </div>
+                <div class="box">
+                    <h3>Wind</h3>
+                    <p class="wind-speed"></p>
+                </div>
+                <div class="box">
+                    <h3>Feels Like</h3>
+                    <p class="feels-like"></p>
+                </div>
+            </div>
+        </div>
+
+        <h2 class="forecast-heading">📅 5-Day Forecast</h2>
+
+        <div class="forecast">
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
